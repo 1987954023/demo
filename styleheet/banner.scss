@@ -1,0 +1,65 @@
+#box {
+    width: 470px;
+    height: 150px;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid #000;
+    overflow: hidden;
+
+    ul {
+        position: absolute;
+        top: 0px;
+        left: -470px;
+        width: 3290px;
+        height: 150px;
+
+
+        li {
+            width: 470px;
+            height: 150px;
+            float: left;
+        }
+    }
+
+    ol {
+        position: absolute;
+        // padding: 5px 10px;
+        bottom: 5px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+
+        li {
+            float: left;
+            margin: 5px;
+            background: cyan;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+    }
+
+    .spanLeft {
+        width: 25px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        margin-top: -25px;
+        background: cyan;
+    }
+
+    .spanRight {
+        width: 25px;
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        margin-top: -25px;
+        background: cyan;
+    }
+}
+
+.active {
+    border: 1px solid red;
+}
